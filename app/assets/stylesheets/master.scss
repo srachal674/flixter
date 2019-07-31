@@ -29,4 +29,26 @@ h1, h2, h3, h4, h5, h6, .navbar{
   -o-background-size: cover;
   background-size: cover;
   height: 370;
+  box-shadow: 1px 6px 10px #032144;
+}
+
+.frosty {
+  background: rgb(52, 137, 175);
+  color: white;
+}
+
+.frosty h1{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  text-shadow: 4px 4px 6px black;
+}
+
+.frosty h2{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 200;
+  text-shadow: 4px 4px 6px black;
+}
+
+.btn{
+  border-radius: 0;
 }
