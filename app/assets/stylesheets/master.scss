@@ -1,21 +1,16 @@
 @import "bootstrap";
-@import "fontawesome";
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans&display=swap")
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap")
 
 
-body {
-  background: image_url('');
-  font-family: 'Noto Sans', sans-serif;
-}
 
 .navbar {
+  background: image_url('nav-bar.png');
   font-family: 'Noto Sans', sans-serif;
   font-weight: 200;
   font-size: 40px;
   box-shadow: 8px 8px 12px #000033;
   margin-bottom: 0;
   text-decoration: none;
-  background-color: light-blue;
 }
 
 .navbar-inverse .navbar-brand {
