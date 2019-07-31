@@ -1,14 +1,25 @@
 @import "bootstrap";
+@import <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&display=swap" rel="stylesheet">
 
+.clear {
+  clear: both
+}
 
 body{
   background: image_url('');
   font-family: ;
 }
 
-
 .navbar {
-  background: image_url('nav-bar.png');
-  box-shadow: 8px 8px 12px 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 200;
+  box-shadow: 8px 8px 12px #000033;
   margin-bottom: 0;
+  background: image_url('circuit.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  color: white;
 }
