@@ -5,6 +5,10 @@ h1, h2, h3, h4, h5, h6, .navbar{
   margin: 0;
 }
 
+body{
+  background: image_url('bk.png')
+}
+
 .navbar {
   background: image_url('nav-bar.png');
   font-family: 'Noto Sans', sans-serif;
@@ -53,4 +57,10 @@ h1, h2, h3, h4, h5, h6, .navbar{
 
 .btn{
   border-radius: 0;
+}
+
+.feature{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
