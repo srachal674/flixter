@@ -12,7 +12,7 @@ body{
 }
 
 .navbar {
-  background: image_url('nav-bar.png');
+  background: image_url('nav-bar2.png');
   font-family: 'Noto Sans', sans-serif;
   box-shadow: 10px 10px 14px #000033;
   margin-bottom: 0;
@@ -23,7 +23,7 @@ body{
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   font-size: 40px;
-  text-shadow: 4px 4px 6px black;
+  text-shadow: 6px 6px 8px #010631;
   text-decoration: none;
   color: white;
 }
@@ -34,19 +34,19 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 370;
-  box-shadow: 1px 6px 10 px #032144;
+  height: 370px;
+  box-shadow: 2px 12px 12px #01214E;
 }
 
 .frosty {
-  background: rgb(52, 137, 176);
+  background: rgba(143, 143, 143, .20);
   color: white;
 }
 
 .frosty h1{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 100;
-  text-shadow: 4px 4px 6px black;
+  text-shadow: 6px 6px 8px black;
   color: white;
 }
 
