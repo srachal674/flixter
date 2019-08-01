@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, .navbar{
 }
 
 .hero{
-  background: image_url('hero.png') no-repeat center center fixed;
+  background: image_url('Hero2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, .navbar{
 }
 
 .frosty {
-  background: rgb(52, 137, 175);
+  background: rgb(52, 137, 176);
   color: white;
 }
 
@@ -41,13 +41,15 @@ h1, h2, h3, h4, h5, h6, .navbar{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 100;
   text-shadow: 4px 4px 6px black;
+  color: white;
 }
 
-.frosty h2{
+/*.frosty h2{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 200;
   text-shadow: 4px 4px 6px black;
-}
+  color: white;
+}*/
 
 .btn{
   border-radius: 0;

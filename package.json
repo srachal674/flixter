@@ -1,5 +1,8 @@
 {
   "name": "flixter",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^1.9.1",
+    "popper.js": "^1.15.0"
+  }
 }
