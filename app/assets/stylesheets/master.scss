@@ -6,7 +6,9 @@ h1, h2, h3, h4, h5, h6, .navbar{
 }
 
 body{
-  background: image_url('bk.png')
+  background: image_url('bk.png');
+  /* Trebuchet-based sans serif stack */
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 }
 
 .navbar {
