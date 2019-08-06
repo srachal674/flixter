@@ -66,3 +66,18 @@ body{
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.booyah-box{
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 6px 6px 8px 0 #d0d0d0;
+  background: image_url('bkg.png');
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 10px 10px 14px #000033;
+  padding: 10px;
+}
+
+.button{
+  margin: 10px;
+}
