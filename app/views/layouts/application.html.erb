@@ -6,7 +6,7 @@
       <%= csrf_meta_tags %>
       <%= csp_meta_tag %>
 
-      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -25,6 +25,8 @@
       <ul class="navbar-nav mr-auto mt-2 mt-md-0">
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
       
       <ul class="navbar-nav">
         <% if user_signed_in? %>
@@ -40,8 +42,7 @@
               <%= link_to 'Sign up', new_user_registration_path, class: 'nav-link' %>
           </li>
         <% end %>
-        </ul>
-      </ul>  
+        </ul> 
     </div>
   </nav>
 

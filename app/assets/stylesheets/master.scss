@@ -5,6 +5,9 @@ h1, h2, h3, h4, h5, h6, .navbar{
   margin: 0;
 }
 
+h3{
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
 body{
   background: image_url('bk.png');
   /* Trebuchet-based sans serif stack */
@@ -26,15 +29,6 @@ body{
   text-shadow: 6px 6px 8px #010631;
   text-decoration: none;
   color: white;
-}
-
-.nav-link{
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  text-shadow: 6px 6px 8px #010631;
-  text-decoration: none;
-  color: blue;
 }
 
 .hero{
@@ -75,3 +69,16 @@ body{
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.booyah-box{
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
+  border-color: #01214E;
+  padding: 10px;
+  max-width: relative;
+  box-shadow: 2px 12px 12px #01214E;
+  border-radius: 25px;
+  background: image_url('bk.png');
+  max-height: 100%;
+}
+
