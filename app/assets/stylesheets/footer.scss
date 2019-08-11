@@ -15,7 +15,7 @@ body {
 #footer{
   position: relative ;
   width: 100%;
-  min-height: 100px;
+  min-height: 30px;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
@@ -28,5 +28,6 @@ body {
 #footer a{
   color: white;
   font-weight: 100;
+  font-size: 16px;
 
 }
