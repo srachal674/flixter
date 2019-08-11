@@ -28,6 +28,15 @@ body{
   color: white;
 }
 
+.nav-link{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 6px 6px 8px #010631;
+  text-decoration: none;
+  color: blue;
+}
+
 .hero{
   background: image_url('Hero2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
