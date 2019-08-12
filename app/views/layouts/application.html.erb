@@ -10,54 +10,57 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
-<body>
-
- <nav class="navbar navbar-toggleable-md navbar-inverse">
+  <body>
+      <div id="flex-container">
+        <nav class="navbar navbar-toggleable-md navbar-inverse">
+              
+          <%= link_to 'Flixter', root_path, class: 'navbar-brand' %>
         
-    <%= link_to 'Flixter', root_path, class: 'navbar-brand' %>
-  
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                  
+                  <% if user_signed_in? %>
+                    <li class="nav-item">
+                      <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+                    </li>
 
-            <li class="nav-item">
-              See all courses
-            </li>
+                  <% else %>
+
+                    <li class="nav-item">
+                      <%= link_to 'Sign in', new_user_session_path, class: 'nav-link' %>
+                    </li>
+
+                    <li class="nav-item">
+                      <%= link_to 'Sign Up', new_user_registration_path, class: 'nav-link' %>
+                    </li>
+
+                  <% end %>
+                  
+                </ul>
+              </div>
+            </nav>
             
-            <% if user_signed_in? %>
+        <% if notice.present? %>
+        <p class="alert alert-info"><%= notice %></p>
+        <% end %>
 
+        <% if alert.present? %>
+        <p class="alert alert-danger"><%= alert %></p>
+        <% end %>
 
-              <li class="nav-item">
-                <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
-              </li>
+        <%= yield %>
+      </div>
 
-            <% else %>
+      <div id="footer">
+        <b>Footer Here</b>
+        <br/>
+        <%= link_to 'Link', '#' %>
+      </div>
+    </div>
 
-              <li class="nav-item">
-                <%= link_to 'Log In', new_user_session_path, class: 'nav-link' %>
-              </li>
-
-              <li class="nav-item">
-                <%= link_to 'Sign Up', new_user_registration_path, class: 'nav-link' %>
-              </li>
-
-            <% end %>
-            
-          </ul>
-        </div>
-      </nav>
-    <% if notice.present? %>
-    <p class="alert alert-info"><%= notice %></p>
-    <% end %>
-
-    <% if alert.present? %>
-    <p class="alert alert-danger"><%= alert %></p>
-    <% end %>
-
-    <%= yield %>
-
-  </body>
+    </body>
   </html>
