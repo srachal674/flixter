@@ -33,6 +33,10 @@ body{
   border-color: black;
   }
 
+.navbar-toggler {
+  border-color: navy;
+  border-radius: relative;
+}
 .hero{
   background: image_url('Hero2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
