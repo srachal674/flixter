@@ -25,6 +25,6 @@ class Instructor::SectionsController < ApplicationController
   end
 
   def section_params
-    params.require(:section).permit(:title, :image)
+    params.require(:section).permit(:title)
   end
 end
