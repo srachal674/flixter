@@ -80,3 +80,5 @@ gem 'carrierwave'
 gem 'figaro'
 
 gem 'fog-aws'
+
+gem 'mini_magick'
