@@ -5,6 +5,7 @@
   <br />
   <div class="row">
     <div class="col-sm-4 col-12">
+    <%= image_tag @course.image, class: 'img-fluid' %>
       <span class="badge badge-default">
         <%= number_to_currency @course.cost %>
       </span>
@@ -17,7 +18,6 @@
     </div>
 
     <div class="col-sm-8 col-12">
-    <%= image_tag @course.image, class: 'img-fluid' %>
       <%= @course.description %>
     </div>
   </div>

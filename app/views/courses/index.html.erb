@@ -9,10 +9,12 @@
     <br />
     <div class="row">
       <div class="col-sm-8 col-12">
-      <%= image_tag @course.image, class: 'img-fluid' %>
       <%= course.description %>
       </div>
       <div class="col-sm-4 col-12 text-center">
+      <% if course.image.present? %>
+      <%= image_tag course.image, class: 'img-fluid' %>
+      <% end %>
         <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
       </div>
     </div>
