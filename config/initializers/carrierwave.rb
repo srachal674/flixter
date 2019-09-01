@@ -2,7 +2,7 @@
 
 CarrierWave.configure do |config|
   config.storage = :aws               #required
-  config.aws_public = false
+  # config.aws_acl = false
   config.aws_credentials = {
     provider:               'AWS',                  #required
     aws_access_key_id:      ENV["AWS_ACCESS_KEY"],   #required
