@@ -1,8 +1,8 @@
-html {
-  height: 100%;
+html{
+  height: 100%
 }
 
-body {
+body{
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -12,22 +12,20 @@ body {
   flex: 1;
 }
 
-#footer{
-  position: relative ;
+#footer {
+  position: relative;
   width: 100%;
-  min-height: 30px;
-  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100px;
+  background-color: rgba(2, 19, 77, 0.45);
   color: white;
-  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-  padding: 10px 0px;
-  margin-top: 30px;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 20px 0px;
+  margin-top: 100px;
   text-align: center;
-  
 }
 
-#footer a{
+#footer a {
+  text-align: center;
   color: white;
   font-weight: 100;
-  font-size: 16px;
-
 }

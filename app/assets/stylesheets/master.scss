@@ -5,6 +5,9 @@ h1, h2, h3, h4, h5, h6, .navbar{
   margin: 0;
 }
 
+h3{
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
 body{
   background: image_url('bk.png');
   /* Trebuchet-based sans serif stack */
@@ -23,19 +26,25 @@ body{
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   font-size: 40px;
-  text-shadow: 6px 6px 8px #010631;
+  text-shadow: 4px 2px 2px #F8CA81;
   text-decoration: none;
-  color: white;
-}
+  color: #02134D;
+  border-width: 20px;
+  border-color: black;
+  }
 
+.navbar-toggler {
+  border-color: navy;
+  border-radius: relative;
+}
 .hero{
   background: image_url('Hero2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 270px;
-  box-shadow: 2px 12px 12px #01214E;
+  height: 250px;
+  box-shadow: 12px 12px 12px #01214E;
 }
 
 .frosty {
@@ -69,20 +78,26 @@ body{
 
 .booyah-box{
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 6px 6px 8px 0 #d0d0d0;
-  background: image_url('bkg.png');
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  box-shadow: 10px 10px 14px #000033;
+  -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
+  border-color: #01214E;
+  border-width: 5px;
   padding: 10px;
+  padding-top: 25PX;
+  max-width: relative;
+  box-shadow: 10px 12px 12px #01214E;
+  border-radius: 25px;
+  background: image_url('bk.png');
+  min-height: 141px;
 }
 
-.button{
+/*.col-sm{
+  background-color: rgba(255, 0, 0, 0.25);
+}*/
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
   margin: 10px;
-}
-
-.footer{
-  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-  font-size: 10px;
 }
