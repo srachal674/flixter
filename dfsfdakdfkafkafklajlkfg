@@ -1,0 +1,612 @@
+[33mcommit 6e4fc9deec8d1c2847002b8dcb43f0dbd6c2df54[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Sun Sep 1 01:29:55 2019 +0000
+
+    Revert to Style formatting
+
+[33mcommit ce5e76969cf2195982b35ba1e8bcac7c36e4dbc2[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Sun Sep 1 00:45:10 2019 +0000
+
+    Added courses
+
+[33mcommit c1e6f025d828ed4d2b9f6e6e06adf859554a287d[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Sat Aug 31 22:54:08 2019 +0000
+
+    Revert to ba04fafa5968aaac91ae141af2e9a3e227e21809
+
+[33mcommit e5a04c23a8f581644df97e9b99438847c6916a7f[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Sat Aug 31 22:01:56 2019 +0000
+
+    Error on view/lesson/show_html line 24 with the word cost. It worked earlier. Added css for black box and now cost doesn't work
+
+[33mcommit b22eb9abb6591697cf13fefd87b3a9b05e052720[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Sat Aug 31 20:17:24 2019 +0000
+
+    Troubleshooting video
+
+[33mcommit da2b3be80373da8de2f57531ed81a40d35b37b7b[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Thu Aug 29 04:44:40 2019 +0000
+
+    Video issues
+
+[33mcommit 648bfd6e5703fc73766384ef3bbafd0067a4f132[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Thu Aug 29 04:36:16 2019 +0000
+
+    Added the vjs player
+
+[33mcommit f0c291a82e93c74d9c950cae63e6efcaa1101010[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Thu Aug 29 03:36:27 2019 +0000
+
+    Added video link
+
+[33mcommit d0a7a16999d8c229f46bc1d253c1bb0ea79235e2[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Thu Aug 29 02:23:41 2019 +0000
+
+    Finished 24
+
+[33mcommit fcc3dd56f307a284b929b2304983d9a19d14f107[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Thu Aug 29 02:05:53 2019 +0000
+
+    Corrected server error
+
+[33mcommit dae586fecd7006bb8920eacad664e2cfe3a89970[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Thu Aug 29 01:46:03 2019 +0000
+
+    Added aws and carrierwave for video lesson 24
+
+[33mcommit 0cf61fc6b86150501629fc0e33ebe898f1cbfe73[m
+Author: srachal674 <srachal674@gmail.com>
+Date:   Wed Aug 28 05:41:22 2019 +0000
+
+    Added imagemagick
+
+[33mcommit d5e34ab008be941e8a230cbc5d33cdf7967124ce[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Mon Aug 26 03:05:21 2019 +0000
+
+    application.yml
+
+[33mcommit c3abc741a0012822c04ba83757ce8e7e42f447ec[m
+Merge: c7c2c52 d981a76
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 21 02:52:06 2019 +0000
+
+    Merge branch 'master' of github.com:srachal674/flixter
+
+[33mcommit c7c2c5242ba38bccd1dea340358c3cff6fe4f71a[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 21 02:50:50 2019 +0000
+
+    Changed AWS secret key
+
+[33mcommit d981a76789278e0e45501dc3a8072da49d6cd3ac[m
+Author: srachal674 <52225173+srachal674@users.noreply.github.com>
+Date:   Tue Aug 20 19:45:05 2019 -0700
+
+    Delete rootkey AWS.numbers
+
+[33mcommit 62752104938b908208e35dfbd82b37298158cc4f[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 21 02:34:32 2019 +0000
+
+    Changed stupid carrierwave.rb yet again
+
+[33mcommit 25a9dfc0c809c899f55f20b4092578a45ddf1e94[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 21 02:23:47 2019 +0000
+
+    Added .fetch to carrierwave.rb
+
+[33mcommit 6119bf048a6a9816006679ecaaf03889455aede4[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 21 01:10:47 2019 +0000
+
+    Updated carrierwave.rb file
+
+[33mcommit 69ba817c41ec57ba08d58beccead949de7676408[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 20 02:14:16 2019 +0000
+
+    Added  config.fog_public = false to carrierwave.rb
+
+[33mcommit 5d02c36cb5f6b532e472209be6dfe4562260f0ab[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 20 01:53:15 2019 +0000
+
+    Added AWS and Figaro
+
+[33mcommit 57cfbb3de51278fe3f37447272730da1e6579e3b[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 20 00:44:17 2019 +0000
+
+    Style update to booyah-box background
+
+[33mcommit 73eec23c7d903e0407f7ee3f90a7061164e241f2[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 20 00:15:48 2019 +0000
+
+    Corrected image code in Course index.html.erg
+
+[33mcommit 1f7b85456e5334dabfb64a3938699f720a99687d[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 23:09:33 2019 +0000
+
+    Lesson 22 update
+
+[33mcommit 4332f90ca7acb4c131a91b37ea307e1d4e1886b6[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 21:37:25 2019 +0000
+
+    Added @course = Course.find(params[:id])to courses_controller
+
+[33mcommit 4058e3a44b17ffa02df06cb1ee4d3fe6b5e532eb[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 20:19:48 2019 +0000
+
+    Updated schema
+
+[33mcommit 98c22c2866aa713df5fbf84ec26447bcee01ca4f[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 19:39:30 2019 +0000
+
+    Finished Lesson 22 step 8
+
+[33mcommit fc28f1aad25d4075dc63251536187cd8c68cdf17[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 19:15:31 2019 +0000
+
+    Completed Step 6 Lesson 22
+
+[33mcommit d17a357711690cf79db77cf168b5226afb23f0b8[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 19:05:08 2019 +0000
+
+    Added image model
+
+[33mcommit 2cbc62a043faa8abaff7c568ecf9487f5628935f[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 18:18:26 2019 +0000
+
+    Added carrierwave gem
+
+[33mcommit c06b0799cd83b1fdc4b36381afec182e4cee5a59[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 18:07:55 2019 +0000
+
+    Added the course video page
+
+[33mcommit dcc0c6ae7935f498ce2ef66fa45214b5134e888b[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 17:19:16 2019 +0000
+
+    Added Carrierwave
+
+[33mcommit 2d0b646fdb476c86d67fa0876d87b2c2a3a34a72[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 06:04:03 2019 +0000
+
+    Added the course video page
+
+[33mcommit e88c1f19c25e36d006618ea55bc32cc0156fb87e[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 02:20:44 2019 +0000
+
+    Added security to instructor pages
+
+[33mcommit f1cb11701d62ae1a7c32057c8b56d089edcaf9d4[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 01:34:12 2019 +0000
+
+    Corrected spelling errors
+
+[33mcommit dd9d4225a64d084a41aaa0c756f47851c0524004[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 18 01:29:40 2019 +0000
+
+    Added lessons - Lesson 19 complete
+
+[33mcommit df3a17519b684a057cdea8a93500a2837d36c4f1[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Fri Aug 16 01:02:28 2019 +0000
+
+    Added add a section form - Lesson 18
+
+[33mcommit 64e1650faf10f3614e36341b0fc1cf933385c3f0[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Fri Aug 16 00:28:55 2019 +0000
+
+    Lesson 18 added instructor/lessons controller
+
+[33mcommit 5c791fddfff5e01262750cd8e7eba96b23814fac[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Fri Aug 16 00:08:23 2019 +0000
+
+    Finished Lesson 17
+
+[33mcommit 04ac83677f54050329c48ef7289bd31e85dcd8b9[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 23:52:26 2019 +0000
+
+    Added button Lesson 17
+
+[33mcommit 4ecd8d2be2bc8525daa59faee95b990589ed07ba[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 03:08:17 2019 +0000
+
+    Updated admin form
+
+[33mcommit e57ccfd90c0aaa6c8a96085fc146062ff89b4206[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 02:45:35 2019 +0000
+
+    Added new form Lesson 17
+
+[33mcommit 946d701439a3d91ef7db97ae2b344e9fcee41199[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 02:13:40 2019 +0000
+
+    Changed brand font-size
+
+[33mcommit 3140f57f7978aba7a289ba7b6a647566d5a5ac7d[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 02:09:41 2019 +0000
+
+    Added cursive to brand
+
+[33mcommit fdc74e7a78c4368f53e4ae9d92232c5041041842[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 01:57:43 2019 +0000
+
+    Added section model
+
+[33mcommit b79771704165cac4fb91af9ff0a34880ac2c34ce[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 01:46:41 2019 +0000
+
+    Added formatting and the sdminister button to student course page
+
+[33mcommit be7deebc74b682569c6c5ab0352b94c925d62042[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 00:45:18 2019 +0000
+
+    Added student course index page and links from main page
+
+[33mcommit 6b5dd2095e2d512dc1394531e45887e8de00228e[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 00:31:34 2019 +0000
+
+    Correction to courses_controller
+
+[33mcommit 3c086a837e9d2c86492ea9ce949ee219f0a6188a[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 15 00:16:29 2019 +0000
+
+    Added student index.html.erb
+
+[33mcommit e8082d4f672b23c475544f1765f2817da055982c[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 14 04:14:54 2019 +0000
+
+    Style formatting
+
+[33mcommit 8d81c2d7f6eb3f01e3d31a9def8fd7ff9ad35106[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 14 04:09:47 2019 +0000
+
+    Added forms.scss
+
+[33mcommit 40f88c26184bb3a1e5e58556f18e44bf1cbd1349[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 14 03:12:02 2019 +0000
+
+    Added validation
+
+[33mcommit 0483da4cb6e654b92d7551b1fa528eb1e58ab498[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 14 02:54:48 2019 +0000
+
+    Update after lesson 13
+
+[33mcommit 6c437ceda948d420c690d7f1889839846cce7421[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 14 02:40:56 2019 +0000
+
+    FIxed Navbar - Lesson 13 finished
+
+[33mcommit 44b143cf1d86366d04db6629a99e8052d7c05af8[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Aug 14 01:41:56 2019 +0000
+
+    Added menu button style
+
+[33mcommit ade1cdb218c0ead053f932ac3ab2b685c85b88a2[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 13 06:10:34 2019 +0000
+
+    Added teacher course form - Lesson 13
+
+[33mcommit c8175eb0ceae6dcba073e5e32b1ea8ed69ba6207[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 13 05:06:04 2019 +0000
+
+    Updated boxes
+
+[33mcommit 9dc7cc1e4e44c86b597bf722ead35d6e178e6766[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Mon Aug 12 02:07:13 2019 +0000
+
+    Trouble shooting bootstrap navbar
+
+[33mcommit 080523a5858926b1d4820a0b69266e3fd0d6a9c3[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Mon Aug 12 01:47:13 2019 +0000
+
+    Added footer
+
+[33mcommit b553bb4b7ad5a0526cee188d9ea8ffda322595e5[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Mon Aug 12 00:35:37 2019 +0000
+
+    Working on Navbar
+
+[33mcommit efc2562c8181307efe6b48d91784bc17ecfe4d63[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 20:43:02 2019 +0000
+
+    MOved nav bar </button> down
+
+[33mcommit 62b00958bdf62804c4781780b262519c19f83125[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 20:32:43 2019 +0000
+
+    Navbar update
+
+[33mcommit f8e850b7d7f4a35a521d13ba6696f538bfd6b823[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 20:32:11 2019 +0000
+
+    Navbar update
+
+[33mcommit 420e832c85c27a3101ee6d4c920a90106cc2696a[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 20:11:38 2019 +0000
+
+    Added boxes
+
+[33mcommit 8e8fa05c7064889d6e972060d1d662658fe9b2ea[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 19:31:57 2019 +0000
+
+    Added sign in and sign up pages. Links not showing on navbar
+
+[33mcommit fae9bec8bee60de70f1120ec9b861322ec8aa64d[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 18:42:43 2019 +0000
+
+    Added sign in and sign up
+
+[33mcommit 5a4ccce3c0aa751b9255c9cec441828ac4ebb6a6[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 18:26:04 2019 +0000
+
+    Added devise and simple_form
+
+[33mcommit ffeab45ecc5cde5ffa637ce25c115ae9cc1324cf[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 04:29:09 2019 +0000
+
+    Revert to ccd7d904d08a9a53f2a7c771e64dd8bc17ddbbae
+
+[33mcommit a5ae50e43967f7d8219317285cdbcc737bdba905[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 03:53:46 2019 +0000
+
+    Stupid Lesson 13 again
+
+[33mcommit 84d721e2ad6758401cddd34a71228b47670afdef[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 03:44:40 2019 +0000
+
+    Updated heroku app in production file
+
+[33mcommit b098dcbb4269ec3effa4c5f89c3fdbb78a2eedf7[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 03:42:35 2019 +0000
+
+    Added Devise again
+
+[33mcommit 70d4a72d89b65347177e1f1262a324144fed724d[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 03:23:32 2019 +0000
+
+    LEsson 13
+
+[33mcommit ba04fafa5968aaac91ae141af2e9a3e227e21809[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 02:02:13 2019 +0000
+
+    Updated footer font and size
+
+[33mcommit db1b60980f82dfcd65e70100120096f918322811[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Aug 11 01:50:26 2019 +0000
+
+    Refresh files
+
+[33mcommit 28d8201cc1f3a6e88e01a2ecce31b7dd393550b5[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 6 04:42:44 2019 +0000
+
+    Added sticky footer
+
+[33mcommit 64f59a35ba30acb092158c2d9ba80880e986e7f7[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 6 04:14:50 2019 +0000
+
+    Added boxes
+
+[33mcommit deafb676de76499cd06d9f676a476dcda9cd10c4[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 6 03:41:03 2019 +0000
+
+    Devise
+
+[33mcommit e63c203b88278458ad3d27a32b2ad458bc955fec[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Aug 6 03:18:47 2019 +0000
+
+    Added devise
+
+[33mcommit ccd7d904d08a9a53f2a7c771e64dd8bc17ddbbae[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 1 04:19:01 2019 +0000
+
+    Finished main page Lesson 9
+
+[33mcommit 8bdfbb952acf01122d720fb480a87ae252366735[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 1 03:07:40 2019 +0000
+
+    Trying to get hero image to load correctly
+
+[33mcommit 15313c04d0fafba8c0b48b7972597be2aaf403d5[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 1 02:54:10 2019 +0000
+
+    Added body font and text
+
+[33mcommit 0f125d1452860c141cfdbda7053b3be7bc2372a7[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 1 02:45:30 2019 +0000
+
+    Added the background
+
+[33mcommit 1e6ad030ab57d7e34efbbb275e7c7aa68a30c7b5[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 1 02:33:13 2019 +0000
+
+    Finished Lesson 8
+
+[33mcommit 5647560a77d178491e1ad5757030cf99eb2e2acd[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Thu Aug 1 01:07:08 2019 +0000
+
+    Added the Feature place holders
+
+[33mcommit e0542c14f826628bde2b5671706d52e3ab1ce2bf[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 15:42:25 2019 +0000
+
+    Added shadow and button to hero. Finished Lesson 8
+
+[33mcommit 08f0b73a989367e62bc62a15bd070efadda9d29b[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 15:22:16 2019 +0000
+
+    Fixed duplicate hero section
+
+[33mcommit f36696740b6a571a6e6b7db9e826b4d57c30a0d6[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 15:10:55 2019 +0000
+
+    Trying to fix hero formatting
+
+[33mcommit a6251a1495a3e07d976d5a368c1e775b46e26671[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 14:56:06 2019 +0000
+
+    Added hero image
+
+[33mcommit 538a2d2d9b9d78cde4e606fb7643bee99264dfea[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 06:04:08 2019 +0000
+
+    Fixed navbar
+
+[33mcommit 8b7fb7e4cf959625a5ee90fad5b682e691480d24[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 05:37:34 2019 +0000
+
+    Updated stupid files
+
+[33mcommit 42151cc34b054ce02f6ae8a2363f1b482bbe8007[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 03:17:01 2019 +0000
+
+    Added fontawesome
+
+[33mcommit 40f9468f481ae943bcb85342b8a83c16f7c88f86[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 03:13:21 2019 +0000
+
+    Trying to get font and navbar background to work
+
+[33mcommit 1c8cb866641bc4b1feeb8887207f2c4c33085e6a[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 03:03:02 2019 +0000
+
+    Removed @import bootstrap from application.scss
+
+[33mcommit 45a3441f83eafab7279acf81007f2d9ccda9dbbe[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 02:36:25 2019 +0000
+
+    Updated gems
+
+[33mcommit 186866845ad68cb714df1d4b2b754eeba70f5bc0[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 02:23:11 2019 +0000
+
+    Updated java file
+
+[33mcommit 094452015d48e2c0e1e9708e540f9d066627ecf6[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 02:10:56 2019 +0000
+
+    changed navbar to code from nomster
+
+[33mcommit c65578d76fcca6ce45ad3b8d3e293cfba9061ab5[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 01:58:35 2019 +0000
+
+    Added css formatting
+
+[33mcommit 6710cff791ce4d57179d91e96452c894f2814c28[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 01:01:04 2019 +0000
+
+    Adding background to navbar
+
+[33mcommit f6ef542a89fdb17f2257c8594740ceee8715b33a[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Wed Jul 31 00:45:23 2019 +0000
+
+    Added navbar
+
+[33mcommit 476218488b03bcb5d5d087e1ebe0ce7495d4f375[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Jul 30 00:30:14 2019 +0000
+
+    Set up bootstrap
+
+[33mcommit 96a9561f2d3d688115182198d62b56a43e895d86[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Tue Jul 30 00:15:13 2019 +0000
+
+    Setup routes, index, and controller
+
+[33mcommit 076b69fff48dbe1ca83028f8378a7699a1743181[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Mon Jul 29 23:32:28 2019 +0000
+
+    Initial commit
