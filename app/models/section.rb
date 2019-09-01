@@ -1,3 +1,4 @@
 class Section < ApplicationRecord
     belongs_to :course
-end
+    has_many :lessons
+  end
