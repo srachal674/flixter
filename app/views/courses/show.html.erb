@@ -19,6 +19,11 @@
       <% end %>
     </div>
 
+    <br />
+    <br />
+    <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn btn-primary', method: :post %>
+  </div>
+
     <div class="col-sm-8 col-12">
       <%= @course.description %>
     </div>
