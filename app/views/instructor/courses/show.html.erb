@@ -16,7 +16,7 @@
         <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
         <ul>
           <% section.lessons.each do |lesson| %>
-            <%= image_tag @course.image, class: 'img-fluid' %>
+            <% image_tag course.image.to_s, class: 'img-fluid' %>
             <li>
               <b><%= lesson.title %></b>
               -

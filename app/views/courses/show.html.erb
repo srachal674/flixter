@@ -5,7 +5,9 @@
   <br />
   <div class="row">
     <div class="col-sm-4 col-12">
-    <%= image_tag @course.image.to_s, class: 'img-fluid' %>
+    <% if course.image.present? %>
+      <% image_tag course.image.to_s, class: 'img-fluid' %>
+    <% end %>
       <span class="badge badge-default">
         <%= number_to_currency @course.cost %>
       </span>
