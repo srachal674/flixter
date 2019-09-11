@@ -82,3 +82,9 @@ gem 'figaro'
 gem 'fog-aws'
 
 gem 'carrierwave-aws', "1.3.0"
+
+gem 'ruby-debug-ide'
+
+gem 'debase'
+
+gem 'stripe'
