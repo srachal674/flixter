@@ -85,7 +85,7 @@ gem 'carrierwave-aws', "1.3.0"
 
 gem 'ruby-debug-ide'
 
-gem 'debase'
+gem 'debase', '~> 0.2.4.1'
 
 gem 'stripe'
 
