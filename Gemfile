@@ -88,3 +88,5 @@ gem 'ruby-debug-ide'
 gem 'debase'
 
 gem 'stripe'
+
+gem 'ranked-model'
