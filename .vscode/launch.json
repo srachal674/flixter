@@ -1,5 +1,6 @@
 {
     "version": "0.2.0",
+    "debugServer":4711,
     "configurations": [
         {
             "name": "Start Rails server",
@@ -22,6 +23,7 @@
             "pathToBundler": "/home/vagrant/.rbenv/shims/bundle",
             "pathToRDebugIDE": "/home/vagrant/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/ruby-debug-ide-0.7.0",
             "program": "${workspaceRoot}/bin/rails",
+            "showDebuggerOutput": true,
             "args": [
                 "server",
                 "-p",
