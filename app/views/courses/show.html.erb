@@ -57,9 +57,7 @@
           <%= section.title %>
         </h3>
 
-        <div class="section">
-          <% @course.sections.rank(:row_order).each do |section| %>
-        </div>
+        <% @course.sections.rank(:row_order).each do |section| %>
 
         <div class="row">
           <% section.lessons.rank(:row_order).each do |lesson| %>
