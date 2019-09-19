@@ -48,8 +48,8 @@
           <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
           <ul class="lessons">
             
-            <li data-update-url="<%= instructor_section_path(section) %>"></li>
-              <% section.lessons.rank(:row_order).each do |lesson| %>
+              <li data-update-url="<%= instructor_section_path(section) %>"></li>
+            <% section.lessons.rank(:row_order).each do |lesson| %>
             <li data-update-url="<%= instructor_lesson_path(lesson) %>"></li>
               
               <li>
@@ -62,6 +62,6 @@
           </ul>
         <br class="clr" />
       </li>
-
+ 
   </ul>
 </div>
