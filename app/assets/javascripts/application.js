@@ -22,4 +22,3 @@
 //= require jquery-ui
 //= require font_awesome5
 // Add all icons to the library so you can use it in your page
-library.add(fas, far, fab)
