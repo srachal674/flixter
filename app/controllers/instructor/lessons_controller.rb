@@ -41,6 +41,5 @@ class Instructor::LessonsController < ApplicationController
 
   def lesson_params
     params.require(:lesson).permit(:title, :subtitle, :video, :row_order_position)
-    render plain: 'updated!'
   end
 end
