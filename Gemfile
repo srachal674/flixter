@@ -93,6 +93,6 @@ gem 'ranked-model'
 
 gem 'jquery-ui-rails'
 
-gem 'font_awesome5_rails'
+gem 'font-awesome-sass', '~> 5.11.2'
 
 gem 'solargraph'
