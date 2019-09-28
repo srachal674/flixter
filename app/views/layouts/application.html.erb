@@ -77,7 +77,7 @@
         <br />
         <%= link_to 'Careers', '#' %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', 'privacy_path' %>
       </div>
       <div class="col-12 col-sm-3 social">
         <b>Social</b>
@@ -86,8 +86,12 @@
         <%= link_to 'http://github.com/srachal674' do %>
           <span class="fab fa-github-square fa-2x social-button"></span>
         <% end %>
-        <span class="fab fa-facebook-square fa-2x social-button"></span>
-        <span class="fab fa-twitter-square fa-2x social-button"></span>
+        <%= link_to 'https://www.facebook.com/shannonlrachal' do %>      
+          <span class="fab fa-facebook-square fa-2x social-button"></span>
+        <% end %>
+        <%= link_to 'https://twitter.com/srachal74' do %>
+          <span class="fab fa-twitter-square fa-2x social-button"></span>
+        <% end %>  
       </div>
     </div>
   </div>    
