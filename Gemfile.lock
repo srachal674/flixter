@@ -140,6 +140,7 @@ GEM
       nokogiri (>= 1.5.11, < 2.0.0)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
+    font_awesome (3.101.0)
     font_awesome5_rails (0.9.0)
       railties (>= 4.2)
     formatador (0.2.5)
@@ -337,6 +338,7 @@ DEPENDENCIES
   figaro
   fog-aws
   font-awesome-rails
+  font_awesome
   font_awesome5_rails
   jbuilder (~> 2.5)
   jquery-rails
