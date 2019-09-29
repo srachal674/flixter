@@ -1,0 +1,43 @@
+[33mcommit 0ed2c2153d4e1ca9f88d0187d97f4c2677f1b8b1[m
+Author: Shannon Rachal <srachal674@gmail.com>
+Date:   Sun Sep 29 03:01:08 2019 +0000
+
+    Updated vjs from https to http
+
+[1mdiff --git a/app/views/layouts/application.html.erb b/app/views/layouts/application.html.erb[m
+[1mindex ab3276e..782b6bd 100644[m
+[1m--- a/app/views/layouts/application.html.erb[m
+[1m+++ b/app/views/layouts/application.html.erb[m
+[36m@@ -8,7 +8,7 @@[m
+ [m
+   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>[m
+   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>[m
+[31m-  <link href="https://video-js.css" rel="stylesheet">[m
+[32m+[m[32m  <link href="http://video-js.css" rel="stylesheet">[m
+ </head>[m
+ [m
+ <body>[m
+[36m@@ -96,7 +96,7 @@[m
+     </div>[m
+   </div>    [m
+ </div>[m
+[31m-<script src="https://vjs.zencdn.net/5.12.6/video.js"></script>[m
+[31m-    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>[m
+[32m+[m[32m<script src="http://vjs.zencdn.net/5.12.6/video.js"></script>[m
+[32m+[m[32m    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/app/views/lessons/show.html.erb b/app/views/lessons/show.html.erb[m
+[1mindex 5abc3ec..00e203d 100644[m
+[1m--- a/app/views/lessons/show.html.erb[m
+[1m+++ b/app/views/lessons/show.html.erb[m
+[36m@@ -22,7 +22,7 @@[m
+     <noscript>[m
+       <p class="vjs-no-js">[m
+         To view this video please enable JavaScript, and consider upgrading to a web browser that[m
+[31m-        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>[m
+[32m+[m[32m        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>[m
+       </p>[m
+     </noscript>[m
+   </video>[m
