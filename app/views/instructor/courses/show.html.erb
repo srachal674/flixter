@@ -42,13 +42,6 @@
   <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
   <br class="clr" />
 
-<div class="text-center">
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
-      Add a new section...
-    </button>
-  </div>
-
     <ul class="sections">
       <% current_course.sections.rank(:row_order).each do |section| %>
         <li data-update-url="<%= instructor_section_path(section) %>" class="section-li">
