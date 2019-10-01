@@ -108,19 +108,18 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
-         <h4 class="modal-title" id="newSectionModalLabel">Add a new section</h4>
+        <h4 class="modal-title" id="newSectionModalLabel">Add a new section</h4>
       </div>
-      <%= simple_form_for @lesson, url: instructor_course_sections_path(current_course) do |f| %>
+      <%= simple_form_for @section, url: instructor_course_sections_path(current_course) do |f| %>
         <div class="modal-body">
-            <%= f.input :title %>
+          <%= f.input :title %>
         </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <%= f.submit "Add a section", class: 'btn btn-primary' %>
-      </div>
+        </div>
       <% end %>
-    </div>  
+    </div>
   </div>
 </div>
 
@@ -135,7 +134,6 @@
         </button>
         <h4 class="modal-title" id="newLessonModalLabel">Add a new lesson</h4>
       </div>
-      <%= simple_form_for @lesson, url: instructor_section_lessons_path(current_section) do |f| %>
       <form accept-charset="UTF-8" action="#" class="simple_form new_lesson" enctype="multipart/form-data" id="newLessonForm" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" /><input name="authenticity_token" type="hidden" value="cWn+DdJbIjqZajnzD956Ox4jjPXsnn7178AzOldv0XI=" /></div>
           <div class="modal-body">
               <div class="input string optional lesson_title"><label class="string optional control-label" for="lesson_title">Title</label><input class="string optional form-control" id="lesson_title" name="lesson[title]" type="text" /></div>
@@ -147,7 +145,6 @@
             <input class="btn btn-primary" name="commit" type="submit" value="Add the lesson" />
           </div>
       </form>
-      <% end%>
     </div>
   </div>
 </div>
