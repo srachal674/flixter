@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require activestorage
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
@@ -21,4 +20,3 @@
 //= require_tree .
 //= require jquery-ui
 //= require font_awesome5
-// Add all icons to the library so you can use it in your page
