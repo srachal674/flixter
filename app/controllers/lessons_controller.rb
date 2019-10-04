@@ -11,7 +11,7 @@ class LessonsController < ApplicationController
     def current_lesson
       @current_lesson ||= Lesson.find(params[:id])
     end 
-  end
+  
   
   def require_enrollment_for_current_lesson
     if !current_user.enrolled_in?(current_lesson.section.course)
