@@ -8,7 +8,9 @@ class ImageUploader < CarrierWave::Uploader::Base
   #storage :file
   storage :aws
 
-  # A bunch of comments
+  def store_dir
+    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+  end
 
   # Process files as they are uploaded:
   process resize_to_fill: [800, 350]
