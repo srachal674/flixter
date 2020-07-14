@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app allows a teacher to post how to videos and take payment for the course. 
 
-Things you may want to cover:
+The app uses: 
+  bootstrap
+  ruby
+  devise
+  aws s3
+  carrierwave
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
