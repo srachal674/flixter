@@ -1,0 +1,9 @@
+{
+  "name": "flixter",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0"
+  }
+}
